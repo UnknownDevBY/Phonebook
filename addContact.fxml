@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import sample.NumberTextField?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddContactController">
+   <children>
+      <NumberTextField fx:id="telNumField" layoutX="87.0" layoutY="2.0" prefHeight="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </NumberTextField>
+      <TextField fx:id="nameField" layoutX="75.0" layoutY="40.0" prefHeight="40.0" promptText="Ф.И.О (Название организации)" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="123.0" layoutY="80.0" mnemonicParsing="false" onAction="#contactAddPressed" prefHeight="40.0" text="Добавить" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+   </children>
+</AnchorPane>
